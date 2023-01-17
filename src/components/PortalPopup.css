@@ -1,0 +1,9 @@
+.portalPopupOverlay {
+  /* display: flex; */
+  /* flex-direction: column; */
+  position: fixed;
+  width: 148px;
+  height: 122px;
+  left: 306px;
+  top: 98px;
+}

@@ -1,0 +1,59 @@
+.child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: var(--color-pink);
+}
+.div,
+.div1,
+.item {
+  position: absolute;
+  top: 24.39%;
+  left: 13.51%;
+}
+.div,
+.item {
+  height: 50%;
+  width: 100%;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.item {
+  height: 100%;
+  top: 0;
+  border-radius: var(--br-sm) var(--br-md) 0 0;
+  background-color: var(--color-gray-100);
+}
+.div2,
+.div3 {
+  position: absolute;
+  top: 24.39%;
+  left: 36.49%;
+}
+.div2 {
+  height: 50%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  left: 0;
+}
+.parent {
+  position: relative;
+  width: 148px;
+  height: 122px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
